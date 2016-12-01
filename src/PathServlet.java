@@ -11,7 +11,7 @@ import javax.servlet.http.*;
 public class PathServlet extends HttpServlet {
   public void doGet(HttpServletRequest req, HttpServletResponse res)
                                throws ServletException, IOException {
-   
+    
     res.setContentType("text/plain; charset=Big5");
     PrintWriter out = res.getWriter();
 
